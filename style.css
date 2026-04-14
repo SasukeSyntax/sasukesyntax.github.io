@@ -5,3 +5,8 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.textAnchor {
+    text-decoration: none;
+    font-style: italic;
+    color: whitesmoke;
+}
