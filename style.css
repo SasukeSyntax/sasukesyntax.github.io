@@ -12,11 +12,45 @@ body {
     font-family: "Wendy One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
 }
 #programmer {
     font-style: italic;
 }
 
 .line {
-    font-family: sans-serif;
+    font-family: "Rationale", sans-serif;
+    font-size: 1.5rem;
+    /* display: flex; */
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.zestyBeginner {
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    #firstLine, #secondLine {
+        justify-content: flex-start;
+    }
+
+    .line {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (min-width: 2000px) {
+    #firstLine, #secondLine {
+        font-size: 4rem;
+    }
+
+    .line {
+        font-size: 3rem;
+    }
 }
