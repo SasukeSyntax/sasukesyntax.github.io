@@ -1,6 +1,6 @@
 * {
     text-decoration: none;
-    /* margin: 0; */
+    margin: 0;
 }
 
 body {
@@ -14,16 +14,23 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 2.5rem;
+
     display: flex;
     justify-content: center;
+
     padding-left: 0.7rem;
     padding-right: 0.7rem;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-
-
 
 #programmer {
     font-style: italic;
+}
+
+.idk {
+    font-family: "Goldman", sans-serif;
 }
 
 .line {
@@ -32,6 +39,9 @@ body {
     /* display: flex; */
     padding-left: 30%;
     padding-right: 30%;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #name {
