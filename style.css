@@ -4,8 +4,8 @@
 }
 
 body {
-    background-color: #F0EDCC;
-    color: #02343F;
+    background-color: #02343F;
+    color: #F0EDCC;
 }
 
 
@@ -39,6 +39,12 @@ body {
 }
 
 .zestyBeginner {
+    font-style: italic;
+}
+
+a {
+    color: #F0EDCC;
+    text-decoration: underline;
     font-style: italic;
 }
 
@@ -82,8 +88,9 @@ button {
     border-radius: 1rem;
     border-width: 0px;
     /* border-color: black; */
-    background-color: #02343F;
-    color: white;
+    background-color: #F0EDCC;
+    color: black;
+    padding: 5px;
 
 }
 
