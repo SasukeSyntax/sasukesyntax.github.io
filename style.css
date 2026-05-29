@@ -1,106 +1,30 @@
 * {
-    text-decoration: none;
     margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    color: white;
 }
 
 body {
-    background-color: #02343F;
-    color: #F0EDCC;
+    background-image: url('webground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
-
-#firstLine, #secondLine, #thirdLine {
-    font-family: "Wendy One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2.5rem;
-
-    display: flex;
-    justify-content: center;
-
-    padding-left: 0.7rem;
-    padding-right: 0.7rem;
-
-    margin-top: 10px;
-    margin-bottom: 10px;
+#intro-block {
+    margin: 20px;
 }
 
-#programmer {
-    font-style: italic;
+#intro {
+    /* margin: 20px; */
+    font-size: 50px;
 }
 
-.idk {
-    font-family: "Goldman", sans-serif;
+#links {
+    margin: 20px;
 }
-
-.line {
-    font-family: "Rationale", sans-serif;
-    font-size: 1.5rem;
-    /* display: flex; */
-    padding-left: 30%;
-    padding-right: 30%;
-
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-#name {
-    font-style: italic;
-}
-
-.zestyBeginner {
-    font-style: italic;
-}
-
-a {
-    color: #F0EDCC;
-    text-decoration: underline;
-    font-style: italic;
-}
-
-@media (max-width: 768px) {
-    #firstLine, #secondLine, #thirdLine {
-        justify-content: flex-start;
-    }
-
-    .line {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-
-    #thirdLine {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-}
-
-@media (min-width: 2000px) {
-    #firstLine, #secondLine, #thirdLine {
-        font-size: 4rem;
-    }
-
-    .line {
-        font-size: 3rem;
-    }
-}
-
-.githubLink {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1rem;
-    border-width: 0px;
-    /* border-color: black; */
-    background-color: #F0EDCC;
-    color: black;
-    padding: 5px;
-
-}
-
