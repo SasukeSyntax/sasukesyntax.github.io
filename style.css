@@ -20,6 +20,22 @@ body {
     margin: 20px;
 }
 
+#sup-bois {
+    font-family: "Jersey 15", sans-serif;
+}
+
+h2 {
+     font-family: "Bitcount Grid Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
 #intro {
     /* margin: 20px; */
     font-size: 50px;
@@ -28,11 +44,20 @@ body {
 #refer {
     font-style: italic;
     text-decoration: underline;
+     font-family: "Bitcount Grid Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
 }
 
 #first-para {
     font-size: 30px;
     margin-top: 50px;
+    /* margin-left: 20px; */
 }
 
 #links {
