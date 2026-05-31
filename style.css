@@ -133,3 +133,18 @@ footer {
 .a-link {
     font-style: italic;
 }
+
+@media (max-width: 480px) {
+    #intro {
+        font-size: 28px; 
+    }
+
+    #first-para {
+        font-size: 18px; 
+    }
+
+    footer { 
+        font-size: 14px; 
+    }
+}
+
