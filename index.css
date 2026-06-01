@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-style: normal;
 
@@ -21,20 +21,16 @@ body {
 }
 
 #sup-bois {
-    font-family: "Jersey 15", sans-serif;
-    font-weight: 500;
+    font-family: "Playfair Display SC", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h2 {
-     font-family: "Bitcount Grid Single", system-ui;
+    font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "slnt" 0,
-    "CRSV" 0.5,
-    "ELSH" 0,
-    "ELXP" 0;
 }
 
 #intro {
@@ -43,73 +39,55 @@ h2 {
 }
 
 #refer {
-    font-style: italic;
-    text-decoration: underline;
-     font-family: "Bitcount Grid Single", system-ui;
+    font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
-  font-weight: 500;
-  font-variation-settings:
-    "slnt" 0,
-    "CRSV" 0.5,
-    "ELSH" 0,
-    "ELXP" 0;
+  font-weight: 400;
+  font-style: italic;
+  text-decoration: underline;
 }
 
 #first-para {
     font-size: 30px;
     margin-top: 50px;
     /* margin-left: 20px; */
+    backdrop-filter: blur(10px);
+    border: 1px solid white;
+    border-color: white;
+    padding: 20px;
+    border-radius: 1rem;
+    /* box-shadow: 0 0 0 0.5px white; */
+
 }
 
-#para-inro {
-    font-family: "Bitcount", system-ui;
+#para-intro {
+    font-family: "Playwrite GB J", cursive;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "slnt" 0,
-    "CRSV" 0.5,
-    "ELSH" 0,
-    "ELXP" 0;
 }
 
 #personal {
-    font-family: "Bitcount", system-ui;
+    font-family: "Playwrite GB J", cursive;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 400;
   font-style: italic;
-  /* text-decoration: underline; */
-  font-variation-settings:
-    "slnt" 0,
-    "CRSV" 0.5,
-    "ELSH" 0,
-    "ELXP" 0;
+  text-decoration: underline;
 }
 
 #have {
-    font-family: "Bitcount", system-ui;
+    font-family: "Playwrite GB J", cursive;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: italic;
   text-decoration: underline;
-  font-variation-settings:
-    "slnt" 0,
-    "CRSV" 0.5,
-    "ELSH" 0,
-    "ELXP" 0;
 }
 
 #blah-blah {
-    font-family: "Bitcount", system-ui;
+    font-family: "Playwrite GB J", cursive;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: italic;
   text-decoration: underline;
-  font-variation-settings:
-    "slnt" 0,
-    "CRSV" 0.5,
-    "ELSH" 0,
-    "ELXP" 0;
 }
 
 footer {
@@ -140,7 +118,14 @@ footer {
     }
 
     #first-para {
-        font-size: 18px; 
+        font-size: 20px; 
+        backdrop-filter: blur(10px);
+        border: 1px solid white;
+        border-color: white;
+        padding: 12px;
+        border-radius: 1rem;
+        /* box-shadow: 0 0 0 0.5px white; */
+
     }
 
     footer { 
