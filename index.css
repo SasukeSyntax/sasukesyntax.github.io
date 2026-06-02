@@ -14,10 +14,12 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    padding-bottom: 80px;
 }
 
 #intro-block {
     margin: 20px;
+    padding: 20px;
 }
 
 #sup-bois {
@@ -98,7 +100,8 @@ footer {
     width: 100%;
 
     backdrop-filter: blur(1000px);
-    border-radius: 5px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
     font-size: 25px;
 }
 
@@ -113,6 +116,11 @@ footer {
 }
 
 @media (max-width: 480px) {
+    #intro-block {
+        padding: 10px; 
+        margin: 10px;
+    }
+
     #intro {
         font-size: 28px; 
     }
