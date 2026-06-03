@@ -101,8 +101,10 @@ footer {
 
     backdrop-filter: blur(1000px);
     border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    border-top-right-radius: 0.7rem;
     font-size: 25px;
+
+    border-top: 1px solid white;
 }
 
 #links {
@@ -132,12 +134,14 @@ footer {
         border-color: white;
         padding: 12px;
         border-radius: 1rem;
-        /* box-shadow: 0 0 0 0.5px white; */
+        box-shadow: 0 0 0 0.5px white; 
 
     }
 
     footer { 
         font-size: 14px; 
+        border-top: 1px solid white;
+        /* background-color: rgb(15, 68, 90); */
     }
-}
+} 
 
