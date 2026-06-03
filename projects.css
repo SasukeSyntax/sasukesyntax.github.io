@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    color: white;
+}
+
+body {
+     background-image: url('webground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    
+}
+
+/* main {
+    backdrop-filter: blur(1000px);
+} */
