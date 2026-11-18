@@ -20,8 +20,8 @@
                 <div id="about" class="hero-main-div">
                     <h1 class="main-line fade-in">
                         Hello, <br>
-                        I am <span class="usrname fade-in" style="animation-delay: 0.3s;">Sasuke Syntax.</span> <br>
-                        And I'm a <span class="usrname fade-in" style="animation-delay: 0.6s;">Kool Guy.</span>
+                        I am <span class="usrname fade-in" style="animation-delay: 0.2s;">Sasuke Syntax.</span> <br>
+                        And I'm a <span class="usrname fade-in" style="animation-delay: 0.4s;">Kool Guy.</span>
                     </h1>
                     <p class="second-names">
                         <span class="also fade-in">Also known as:</span> <br>
@@ -33,13 +33,60 @@
                             <img src="forward.svg" alt="">OtakuBroOP</span> <br>
                     </p>
                 </div>
-                <div id="pfp" class="hero-main-div fade-in" style="animation-delay: 0.3s;">
+                <div id="pfp" class="hero-main-div fade-in" style="animation-delay: 0.6s;">
                     <img src="Meow.jpg" alt="">
                 </div>
             </div>
         </section>
+
+
+        <section class="sec2">
+
+            <div class="github-section">
+                <div class="top-line">
+                    <h1 class="github-line scroll-fade">
+                        <img src="about.svg" alt="">
+                        About Me
+                    </h1>
+                </div>
+
+                <div class="about-github">
+                    <p class="discription-github scroll-fade" style="transition-delay: 0.2s;">
+                        I am a web developer. I build things for the web. Not because I have to, and not because someone is paying me—just because... <span style="font-style: italic;">why not?</span>. <br> I'm full time jobless person who want to just try new things. <br>
+                        Anyways here my github for nerds.
+                    </p>
+                </div>
+
+                <div class="link-buttons scroll-fade" style="transition-delay: 0.4s;">
+                    <a href="https://github.com/SasukeSyntax" target="_blank" class="github-anchor"><button class="guthub-link button"><img src="github-white-icon.svg" alt="" class="github-badge">My Github</button></a>
+                </div>
+            </div>
+
+        </section>
     </main>
 
+
+<!-- scroll animaiton -->
+<script>
+    
+document.addEventListener("DOMContentLoaded", function () {
+  const elements = document.querySelectorAll(".scroll-fade");
+
+  const observer = new IntersectionObserver((entries, observerInstance) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+        observerInstance.unobserve(entry.target); 
+      }
+    });
+  }, {
+    threshold: 0.15 
+  });
+
+  elements.forEach(el => observer.observe(el));
+});
+
+</script>
 
 </body>
 </html>
