@@ -359,6 +359,14 @@ body {
 
 @media (max-width: 800px) {
 
+
+  .sec1,
+  .sec2,
+  .sec3,
+  .sec4 {
+    padding: 30px;
+  }
+
   .hero-section {
     height: 100%;
     justify-content: center;
@@ -368,7 +376,7 @@ body {
 
   #about {
     height: fit-content;
-    font-size: larger;
+    /* font-size: larger; */
   }
 
   #about a{
