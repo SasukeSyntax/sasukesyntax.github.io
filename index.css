@@ -18,7 +18,7 @@ body {
     align-items: center;
 }
 
-.sec1, .sec2, .sec3, .sec4 {
+section, footer {
     padding: 60px;
 }
 
@@ -81,7 +81,6 @@ body {
     "GRAD" 0;
     font-style: normal;
     color: #E0E0E0;
-
 }
 
 .secondName {
@@ -94,6 +93,10 @@ body {
   font-variation-settings:
     "GRAD" 0;
     font-style: normal;
+
+    display: flex;
+    align-items: center;
+
 }
 
 
@@ -146,11 +149,20 @@ body {
 .discription-github {
   font-size: 20px;
   margin: 20px 0 20px 0;
+
+  color: #B0B0B0;
 }
 
 
 .top-line, .link-buttons {
   height: 50px;
+}
+
+.the-line {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
 }
 
 .top-line img{
@@ -227,6 +239,7 @@ body {
   width: 35%;
 
   font-size: 20px;
+  color: #B0B0B0;
 }
 
 .name-of-project {
@@ -294,8 +307,11 @@ body {
   width: 50%;
 }
 
-.interest-line-div h1 img {
-  margin-right: 10px;
+.meow {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
 }
 
 #interesting {
@@ -316,10 +332,110 @@ body {
 .list-elements {
   margin: 20px 0 20px 0;
   font-weight: 400;
+
+  color: #B0B0B0;
 }
 
 .list-elements img {
   margin-right: 10px;
+}
+
+
+.sec5 {
+  height: 90vh auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fandom-line {
+  width: 50%;
+}
+
+.fandom-line img{
+  margin-right: 10px;
+}
+
+/* #proud {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+  color: #E0E0E0;
+
+  padding: 5px;
+} */
+
+.from {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+  color: #E0E0E0;
+}
+
+.daddy-div {
+  width: 80%;
+  height: auto;
+  margin-top: 60px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.kiddo2 {
+  height: auto;
+  width: 25%;
+}
+
+.mini-kiddos {
+  color: #B0B0B0;
+  display: flex;
+  align-items: center;
+}
+
+#more {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  color: #B0B0B0;
+}
+
+
+footer {
+  border-top: 1px solid #444444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 80px;
+}
+
+.idkman {
+  width: 50%;
+}
+
+
+.conn-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.icons {
+  width: 25px;
+  aspect-ratio: 1/1;
+  border-radius: 50px;
+  border: 1px solid #444444;
+  padding: 7px;
+
+  transition: transform 0.4s ease;
+}
+
+.icons:hover {
+  transform: translateY(-4px);
 }
 
 
@@ -360,11 +476,12 @@ body {
 @media (max-width: 800px) {
 
 
-  .sec1,
-  .sec2,
-  .sec3,
-  .sec4 {
+  section {
     padding: 30px;
+  }
+
+  .sec1 {
+    height: 80vh;
   }
 
   .hero-section {
@@ -396,7 +513,8 @@ body {
   .github-section,
   .projects-line,
   .interest-line-div,
-  .the-list {
+  .the-list,
+  .fandom-line {
     width: 90%;
   }
 
@@ -420,5 +538,23 @@ body {
 
   .screenie img {
     border-radius: 25px;
+  }
+
+  .daddy-div {
+    flex-direction: column;
+  }
+
+  .kiddo2 {
+    width: 100%;
+  }
+
+  .idkman {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .kiddo2 {
+    width: auto;
   }
 }
