@@ -368,6 +368,11 @@ body {
 
   #about {
     height: fit-content;
+    font-size: larger;
+  }
+
+  #about a{
+    display: none;
   }
 
   .hero-main-div {
