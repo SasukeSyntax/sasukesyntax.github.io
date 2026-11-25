@@ -1,26 +1,23 @@
-# SasukeSyntax — Personal Portfolio & Website
+# Personal Portfolio & Website
 
-A responsive personal website and portfolio built from scratch to showcase my work, interests, and online presence.
+This is my personal site with my socials and interests and stuff.
 
-## 🌐 Live Demo
+## Live Demo
 
 Check out the live site here: **https://sasukesyntax.github.io**
 
-## 🛠️ Built With
+## Built With
 
-* **HTML5** — Semantic structure and layout
-* **CSS3** — Custom styling, Flexbox/Grid responsive layouts, and animations
-* **JavaScript (Vanilla)** — Interactive UI elements and dynamic behavior
-* **Custom SVGs** — Clean, scalable vector icons for navigation and social links
+Vanilla html, css and Javascript
 
-## 📑 What It Includes
+## What It Includes
 
 The site is organized into five main sections:
 
 1. **Hero Section** — An introductory landing view with a brief tagline and quick navigation into the rest of the page.
-2. **About** — A short overview of who I am, what I do, and what I am currently focused on.
-3. **Projects** — A showcase of things I've built, featuring alternating split-card layouts on desktop (and stacked text-first cards on mobile) with descriptions and previews.
-4. **Interests** — A look into my hobbies, side pursuits, and topics I enjoy exploring outside of work/study.
+2. **About** — A short overview of who I am, what I do and stuff like that.
+3. **Projects** — A showcase of things I've built in the past or very recently, Ill be updating thjs section regularly to display the projects im most proud of.
+4. **Interests** — A look into my hobbies, side pursuits, and topics I enjoy exploring, although I ususally stay at home all the time and play games ngl.
 5. **Social Links** — Direct links to connect with me across GitHub, Discord, Instagram, Threads, and Twitter/X.
 
 # What it was before
